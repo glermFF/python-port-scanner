@@ -5,5 +5,7 @@ Um port-scan para verificar vulnerabilidades de hosts conectados em uma rede
 nem protegida por um firewall ou simplesmente está escancarada deixando disponível para crackers invadirem o determinado host vulnerável 
 tanto a rede ao usar o host de intermediador.</p>
 
+<p>Usei a biblioteca socket que já vem integrada no pyhton.</p>
+
 ### Link para clonar e testar:
-<code>$pip install </code>
+<code>https://github.com/glermFF/python-port-scanner.git</code>
