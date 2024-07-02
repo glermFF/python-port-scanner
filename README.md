@@ -1,11 +1,11 @@
 # python-port-scanner
 Um port-scan para verificar vulnerabilidades de hosts conectados em uma rede
 
-<p>Nesta aplicação para entender como podem ser evitados ataques de backdoor que ocorrem quando uma porta de algum protocolo de rede não está
-nem protegida por um firewall ou simplesmente está escancarada deixando disponível para crackers invadirem o determinado host vulnerável 
+<p>Esta aplicação foi feita para entender como podem ser evitados ataques de backdoor que ocorrem quando uma porta não está
+nem protegida por um firewall e deixando disponível para que crackers invadam o determinado host vulnerável 
 tanto a rede ao usar o host de intermediador.</p>
 
-<p>Usei a biblioteca socket que já vem integrada no pyhton.</p>
+<p>Usei a lib socket para identificar as portas e as libs queue e threading para melhorar o desempenho do scan.</p>
 
 ### Link para clonar e testar:
 <code>https://github.com/glermFF/python-port-scanner.git</code>
